@@ -3,12 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   font-family: sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  scroll-behavior: scroll;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -37,6 +38,9 @@ img {
   color: #fff;
   padding: 10px 0;
   margin-bottom: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .header .menu ul {
