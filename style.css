@@ -43,6 +43,14 @@ img {
   z-index: 10;
 }
 
+.header.transparent {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 0.8),
+    rgba(0, 0, 255, 0.8)
+  );
+}
+
 .header .menu ul {
   display: flex;
   justify-content: center;
